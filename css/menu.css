@@ -1,0 +1,57 @@
+/* HOJA DE ESTILO PARA EL MENU 
+AUTOR: JUAN CARLOS MOYOTA */
+
+@charset "utf-8";
+
+*{
+	padding: 0px;
+    margin: 0px;
+}
+#menu{
+	margin: auto;
+    width: 1000px;
+    font-family: "Trebuchet MS",Verdana,Arial,sans-serif;
+}
+			
+ul,ol{
+	list-style: none;
+}
+
+.nav li a{
+   	background-color: #06F;
+	color: #000000;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+}
+
+.nav li a:hover{
+	background-color: #a1cbe2;
+}
+
+.nav li li a{
+	background: #C2E1F3;
+}
+
+.nav > li{
+	float: left;
+}
+
+.nav li ul{
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+
+.nav li:hover > ul{
+	display: block;
+}
+
+.nav li ul li{
+	position: relative;
+}
+
+.nav li ul li ul {
+	right: -140px;
+	top: 0px;
+}

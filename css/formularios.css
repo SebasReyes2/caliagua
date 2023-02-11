@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	font-family: "Trebuchet MS",Verdana,Arial,sans-serif;
+	line-height: 1.9;
+	float: left;
+}
+.p_form{
+	color: #f00;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+h2{
+	text-align: left;
+	color:#09F;
+}
+h3{
+    text-align: center;
+}
+h4{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.tr_color{
+	background-color: #C0DCC0;
+}
+
+/**********diseño de la tabla**********/
+
+table {
+		background:#F2F6F6;
+		float:none;
+		}
+table thead {
+            background:#444;
+            color:#eff4f4;
+            font-size:14px;
+            }			
+
+table th {
+		border-bottom:1px solid #F0F0F0;
+		text-align:left;
+		font-size: 16px;
+		}
+		
+table td{
+	border-bottom:1px solid #F0F0F0;
+	text-align:center
+}
+/**************************************/
+
+form{
+	padding: 10px;
+	font-size: 14px;
+}
+
+fieldset{
+    
+    background: #E8E8E8;
+    width: auto; 
+    padding: 10px;
+    border-top: solid 2px #09F;
+    border-left: solid 2px #09F;
+    border-bottom: solid 1px #09F;
+    border-right: solid 1px #09F;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+legend{
+	font-weight:bolder;
+	font-size:14px;
+}
+
+
+input{
+	font-family: "Trebuchet MS",Verdana,Arial,sans-serif;
+    color: blue;
+	background: #C9E0ED;
+	padding: 3px;
+	outline: 0;
+	font-size: 14px;
+	font-weight: normal;
+	border-top: solid 2px #09F;
+	border-left: solid 2px #09F;
+	border-bottom: solid 1px #09F;
+	border-right: solid 1px #09F;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-top:5px;
+}
+
+#contenido{
+   background:#fff;
+   margin:20px auto;
+   overflow:hidden;
+   padding:40px ;
+ border:1px solid #2E9AFE;
+   width:90%;
+   -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+
+.editable{
+	font-family: "Trebuchet MS",Verdana,Arial,sans-serif;
+    color: blue;
+	background: #FF9;
+	padding: 3px;
+	outline: 0;
+	font-size: 14px;
+	font-weight: normal;
+	border-top: solid 2px #09F;
+	border-left: solid 2px #09F;
+	border-bottom: solid 1px #09F;
+	border-right: solid 1px #09F;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+/*adicionales */
+.submit {
+        background: #C9E0ED;
+        cursor: pointer;
+        font-weight: bold;
+		padding: 3px;
+        font-family: "Trebuchet MS",Verdana,Arial,sans-serif;
+        color: black;
+		font-size: 14px;
+        border-top: solid 3px #09F;
+        border-left: solid 3px #09F;
+        border-bottom: solid 2px #09F;
+        border-right: solid 2px #09F;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px; 
+        alignment-adjust: central;
+        margin-top: 5px;
+}
+
+.message {
+	background-color:#C9E0ED;
+	border: 1px solid #74BABA;
+	height:30px;
+	border-top: solid 2px #09F;
+	border-left: solid 2px #09F;
+	border-bottom: solid 1px #09F;
+	border-right: solid 1px #09F;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	margin-left:10px;
+}
+
+.fieldset-campo{
+	height:50px;
+}
+/*----------control select----------*/
+select {
+	margin-top:5px;
+    background-color: #C1E2F4;
+	padding: 3px;
+    font-family: "Trebuchet MS",Verdana,Arial,sans-serif;
+	font-size: 14px;
+    box-shadow:0 0 10px #ddd;
+	border-top: solid 2px #09F;
+	border-left: solid 2px #09F;
+	border-bottom: solid 1px #09F;
+	border-right: solid 1px #09F;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+option{
+    background: #e3f4f9;
+    color: blue;
+}
+
+
+/*--------checkbox y radio---------*/
+.checkbox, .radio {
+    box-shadow:0 0 10px #ddd;
+	border-top: solid 2px #09F;
+	border-left: solid 2px #09F;
+	border-bottom: solid 1px #09F;
+	border-right: solid 1px #09F;
+}
+
+
+input.hover,input.focus,
+select.focus,select.hover{
+    -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+    border-color: #999; 
+}
+
+
+label.error{
+    background: url('../imagen/error.png') no-repeat;
+    padding-left: 16px;
+    margin-left: .3em;
+    font-size: 11px;
+    color: #f00;
+    font-family: "Trebuchet MS",Verdana,Arial,sans-serif;
+}
+
+
+select.error,input.error{
+    border: 1px solid red;
+}
+
+.rojo{
+        color: #FF4500;
+        text-decoration: none;
+        text-transform: none;
+    }

@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+form, fieldset, legend{margin: auto; padding:0; border:thin #09F;}
+legend{display:none;}
+
+input{
+	background: #C9E0ED;
+        cursor: text;
+	padding: 2px;
+        font-family: "Trebuchet MS",Verdana,Arial,sans-serif;
+	font-size:14px;
+	font-weight:normal;
+        border-top: solid 3px #09F;
+        border-left: solid 3px #09F;
+        border-bottom: solid 2px #09F;
+        border-right: solid 2px #09F;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px; 
+        margin-top: 2px;
+}
+.submit {
+	background: #C9E0ED;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 3px;
+	font-family: "Trebuchet MS",Verdana,Arial,sans-serif;
+	font-size:14px;
+	color: black;
+	font-size: 14px;
+	border-top: solid 3px #09F;
+	border-left: solid 3px #09F;
+	border-bottom: solid 2px #09F;
+	border-right: solid 2px #09F;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin: 0px 5px  5px 100px;
+	width:75px;
+	height:30px;
+	
+}
+
+/* ----------------------------------------------Forms in Content Area-------------------------------------*/
+
+#container #respond{display: block; width:100%;}
+
+#container #respond input{
+	background:url(../imagen/bg-input-aristo.png) repeat-x 0 0;
+	width:170px; 
+	padding:2px; 
+	border:1px solid #CCCCCC; 
+	margin:5px 5px 0 0;
+	}
+
+#container #respond textarea{width:98%; border:1px solid #CCCCCC; padding:2px; overflow:auto;}
+	
+#container #respond p{margin:5px 0;}
+
+#container #respond #submit, #container #respond #reset{
+	margin:0;
+	padding:5px;
+	color:#666666;
+	background-color:#F7F7F7;
+	border:1px solid #CCCCCC;
+	}
+
+/* ----------------------------------------------Newsletter-------------------------------------*/
+
+#footer form{
+	display:block;
+	width:300px;
+	margin:0;
+	padding:10px 0;
+	border:none;
+	}
+
+#footer input{
+	display:block;
+	float:left;
+	width:245px;
+	margin:0 5px 0 0;
+	padding:5px;
+	color:#666666;
+	background-color:#FFFFFF;
+	border:1px solid #DBDBDB;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	}
+
+#footer input#news_go{
+	width:auto;
+	height:auto;
+	margin:0;
+	padding:4px;
+	}
